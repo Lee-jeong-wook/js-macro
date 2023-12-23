@@ -7,6 +7,6 @@ const ctrl = require('./home.ctrl');
 const router = Router();
 
 //get은 ctrl 뒤에 output, post는 post를 붙임
-router.post('/', ctrl.post.postFunc);
+router.post('/data', ctrl.post.data);
 
 module.exports= router;
